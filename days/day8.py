@@ -1,3 +1,5 @@
+# Solutions do Day8 puzzle at https://adventofcode.com/2021
+
 class Day8:
     def __init__(self) -> None:
         #with open("puzzle_input/input_day8_test.txt") as file:
