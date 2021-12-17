@@ -1,10 +1,9 @@
-# Solutions do Day10 puzzle at https://adventofcode.com/2021
+# Solutions do Day11 puzzle at https://adventofcode.com/2021
 
 import numpy as np
 
 class Day11:
     def __init__(self) -> None:
-        #with open("puzzle_input/input_day11_test.txt") as file:
         with open("puzzle_input/input_day11.txt") as file:
             lines = file.read().split("\n")
         file.close()

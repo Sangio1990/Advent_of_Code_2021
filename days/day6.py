@@ -5,7 +5,6 @@ import copy
 class Day6:
     def __init__(self) -> None:
         print("\nDay6")
-        #with open("puzzle_input/input_day6_test.txt") as file:
         with open("puzzle_input/input_day6.txt") as file:
             fish_timers = np.array([int(timer) for timer in file.read().split(",")])
         file.close()

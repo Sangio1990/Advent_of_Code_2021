@@ -4,7 +4,6 @@ import numpy as np
 
 class Day9:
     def __init__(self):
-        #with open("puzzle_input/input_day9_test.txt") as file:
         with open("puzzle_input/input_day9.txt") as file:
                 lines = file.read().split("\n")
         file.close()

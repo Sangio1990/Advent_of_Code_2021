@@ -4,7 +4,6 @@ import copy
 
 class Day7:
     def __init__(self):
-        #with open("puzzle_input/input_day7_test.txt") as file:
         with open("puzzle_input/input_day7.txt") as file:
             self.crab_starting_positions = [int(x) for x in file.read().split(",")]
         file.close()

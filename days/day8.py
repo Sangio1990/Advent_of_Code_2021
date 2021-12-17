@@ -2,7 +2,6 @@
 
 class Day8:
     def __init__(self) -> None:
-        #with open("puzzle_input/input_day8_test.txt") as file:
         with open("puzzle_input/input_day8.txt") as file:
             self.lines = file.read().split("\n")
         file.close()
